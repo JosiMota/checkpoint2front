@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth;
+    list-style: none;
+}
+body{
+    width: 1272px;
+}
+.cabecalho{
+    width:100%;
+    height:70px;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    gap: 50%;
+}
+.logo{
+    width:100px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top:10%;
+}
+.home{
+    color: red;
+}
